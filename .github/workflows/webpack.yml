@@ -25,7 +25,7 @@ jobs:
           node-version: ${{ matrix.node-version }}
 
       - name: Installing dependencies
-        run: npm i --legacy-peer-deps
+        run: npm i --force
 
       - name: Running tests
         run: npm run test
@@ -51,5 +51,5 @@ jobs:
       - name: Installing dependencies
         run: npm i
 
-      - name: Build storybook
-        run: npm run build:storybook 
+      - name: Build todo-list
+        run: npm run build:todo-list 
