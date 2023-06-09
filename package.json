@@ -1,7 +1,7 @@
 {
   "name": "react-ts",
   "version": "0.1.0",
-  "homepage": "https://Feramizxx.github.io/Todo-List",
+  "homepage": "https://feramizxx.github.io/Todo-List",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.11.0",
